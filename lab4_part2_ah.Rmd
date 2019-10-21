@@ -18,7 +18,7 @@ library(plotly)
 library(DT)
 ```
 
-Make an interactive graph of the iris data: 
+### Make an interactive graph of the iris data: 
 
 ```{r}
 
@@ -34,5 +34,12 @@ iris_graph <- ggplot(data = iris,
 iris_graph
 
 ggplotly(iris_graph)
+```
+
+### Now I'll make an interactive table with DT
+
+```{r}
+
+datatable(msleep)
 ```
 
